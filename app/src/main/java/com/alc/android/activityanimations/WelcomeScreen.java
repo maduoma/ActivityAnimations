@@ -13,10 +13,9 @@ public class WelcomeScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //setTheme(R.style.AppTheme_NoActionBar);
+        //setTheme(R.style.AppTheme.NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_screen);
-
         final TextView timer = findViewById(R.id.timer);
         new Thread() {
             public void run() {

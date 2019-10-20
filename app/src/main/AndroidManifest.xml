@@ -10,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".WelcomeScreen"
@@ -27,14 +28,14 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/login"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/login"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".RegistrationActivity"
-            android:label="@string/registration"
             android:parentActivityName=".SecondActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/registration"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".SecondActivity"
             android:label="@string/second_activity"
