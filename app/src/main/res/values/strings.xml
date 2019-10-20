@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Activity Animations</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="version">1.0.0.0</string>
+    <string name="done">Done</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+</resources>
