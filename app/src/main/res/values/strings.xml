@@ -3,7 +3,7 @@
     <string name="second_activity">Second Activity</string>
     <string name="version">1.0.0.0</string>
     <string name="done">Done</string>
-    <string name="welcome">Welcome To Activity Animations</string>
+    <string name="welcome">Activity Animations</string>
     <string name="login">Login</string>
     <string name="registration">Registration</string>
     <string name="circular_reveal">Circular Reveal</string>
