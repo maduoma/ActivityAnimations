@@ -1,16 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Animations</string>
-    <string name="second_activity">Second Activity</string>
-    <string name="version">1.0.0.0</string>
-    <string name="done">Done</string>
-    <string name="welcome">Welcome To Activity Animations</string>
-    <string name="login">Login</string>
-    <string name="registration">Registration</string>
     <string name="circular_reveal">Circular Reveal</string>
     <string name="click_me">Click Me!</string>
     <string name="it_works">It works!</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="login">Login</string>
     <string name="don_t_have_an_account_sign_up_now">Don\'t have an account? Sign up now.</string>
     <string name="first_activity">First activity</string>
     <string name="go">GO!</string>

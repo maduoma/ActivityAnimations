@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final int SPLASH_DISPLAY_TIME = 10000;
     Button mButton;
+    Button mCircularReveal;
     public WelcomeScreen mWelcomeScreen;
 
     @Override
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         init();
         mButton.setOnClickListener(this);
+        mCircularReveal.setOnClickListener(this);
 //        new Handler().postDelayed(new Runnable() {
 //            public void run() {
 //                /* Create an intent that will start the main activity. */
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void init() {
         mButton = findViewById(R.id.clickMe);
+        mCircularReveal = findViewById(R.id.circular_reveal);
     }
 
     @Override
@@ -55,6 +58,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        Intent myIntent = new Intent(this, SecondActivity.class);
 //        myIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
 //        this.startActivity(myIntent);
+        if (v.getId() == R.id.circular_reveal){
+            Intent activityOne = new Intent(this, ActivityOne.class);
+            startActivity(activityOne);
+        }
     }
 
     @Override
