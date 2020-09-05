@@ -22,7 +22,7 @@ public class ActivityTwo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_two);
+        setContentView(R.layout.activity_circular_review_open_to_two);
         final Intent intent = getIntent();
         rootLayout = findViewById(R.id.root_layout);
         if (savedInstanceState == null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP &&

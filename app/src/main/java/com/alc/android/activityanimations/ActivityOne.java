@@ -14,7 +14,7 @@ public class ActivityOne extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_one);
+        setContentView(R.layout.activity_circular_review_one);
         btnCreate = findViewById(R.id.btn);
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
